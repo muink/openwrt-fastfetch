@@ -20,7 +20,7 @@ pushd package/fastfetch
 umask 022
 git checkout
 popd
-# Select the package Network -> fastfetch
+# Select the package Utilities -> fastfetch
 make menuconfig
 # Start compiling
 make package/fastfetch/compile V=s BUILD_LOG=y -j$(nproc)
